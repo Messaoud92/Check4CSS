@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+   
+   
+    height: 100vh;
+}
+nav{
+    background-color:   #00032c;
+  
+    padding: 1em 4em;
+    height: 10%;
+    vertical-align: center;
+}
+nav  .logo{
+    float: left;
+    color: white;
+}
+nav .main-menu{
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+nav .main-menu li{
+    display: inline;
+  
+}
+nav .main-menu li a{
+    text-decoration: none;
+    margin-right: 1em;
+    color: white;
+    font-weight: 700;
+}
+nav .main-menu li:hover a{
+    color: #7d5aeb;
+}
+.main-menu .search {
+    display: inline;
+    margin-left: 30px;
+}
+.main-menu .search form,.main-menu .search form input{
+    display: inline-block;
+}
+.main-menu .search form input{
+    width: 100px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 0.5em;
+}
+#hero-section {
+    padding: 0;
+    height: 90%;
+    background-color:#7d5aeb;
+    font-size: 0;
+}
+#hero-section .col-left,#hero-section .col-right{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+#hero-section .col-left{
+    background-image: url(../img/undraw_programming_re_kg9v.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: green; */
+}
+#hero-section .col-right{
+    /* background-color: red; */
+    /* overflow: hidden; */
+    position: relative;
+    box-sizing: border-box;
+}
+#hero-section .col-right video{
+    width: 80%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    border-radius: 9px;
+
+}
+#hero-section .col-right .section-description {
+    width: 80%;
+    left: 50%;
+    top:405px;
+    position: absolute;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: left;
+    border-radius: 9px;
+    padding: 0.3em;
+    background-color: whitesmoke;
+    color: rgb(32, 32, 32);
+    transform: translateX(-50%);
+}
+.btn{
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0.2em .8em;
+    background-color: #7d5aeb;
+    color: white;
+}
+footer{
+    background-color: #00032c;
+    height: 50px;
+    text-align: center;
+}
+footer p{
+    color: white;
+    line-height: 50px;
+}
+

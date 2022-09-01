@@ -1,0 +1,77 @@
+
+body{
+    background-color: #7d5aeb;
+
+}
+.login{
+    margin: 100px auto;
+    width: 350px;
+    background-color: #fff;
+    padding: 60px;
+
+}
+.logo{
+    background-color: #7d5aeb;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+.logo img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    color: #7d5aeb;
+    font-weight: bolder;
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+form{
+    width: 100%;
+    margin: 30px;
+}
+.form input{
+    font-size: 10px;
+    padding: 1Opx 20px 10px 5px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.user-name, .pswd{
+    display: block;
+    border-radius: 39px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    margin: 10px 0px;
+}
+ .signe-btn{
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #7d5aeb;
+    color: antiquewhite;
+    margin-bottom: 5px;
+    
+
+ }
+.signe-up{
+    text-align: center;
+}
+footer{
+    background-color: #00032c;
+    height: 100px;
+    text-align: center;
+ 
+}
+footer p{
+    color: white;
+    line-height: 50px;
+    
+}
+
